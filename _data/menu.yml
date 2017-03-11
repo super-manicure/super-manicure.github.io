@@ -1,0 +1,16 @@
+items:
+  -
+    title: Головна
+    link: home
+
+  -
+    title: Сервіси
+    link: work
+
+  -
+    title: Галерея
+    url: portfolio
+
+  -
+    title: Замовити
+    url: contacts
