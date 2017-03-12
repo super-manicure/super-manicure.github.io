@@ -1,11 +1,11 @@
 items:
   -
     title: Головна
-    link: top
+    url: top
 
   -
     title: Сервіси
-    link: work
+    url: work
 
   -
     title: Галерея
