@@ -7,12 +7,12 @@
         </header>
         <div class="container">
             {% for service in site.data.work.services %}
-                {% cycle 'g1': '<div class="row">','','' }
+                {% cycle 'g1': '<div class="row">','','' %}
 
                     <div class="4u 12u(mobile)">
                         <section class="box style1">
                             <span class="icon featured fa-comments-o"></span>
-                            <h3>{{service.title}}/{{forloop.index % 3}}</h3>
+                            <h3>{{service.title}}</h3>
                             <p>{{service.description}}</p>
                         </section>
                     </div>
