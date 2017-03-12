@@ -9,29 +9,29 @@ services:
   -
     title: Манікюр
     description: класичний і апаратний
-    image:
+    image: manicure.png
 
   -
     title: Педікюр
     description: класичний, комбінований, апаратний
-    image:
+    image: pedicure.png
 
   -
     title: Покриття гель-лаком
     description: сучасні матеріали та обладнання
-    image:
+    image: hel.png
 
   -
     title: Фарбування та корекція форми брів
     description: хна, спа-хна, фарба
-    image:
+    image: human-eyebrow.png
 
   -
     title: Воскова депіляція, шугаринг
     description: лагідно і ніжно
-    image:
+    image: wax.png
 
   -
     title: 'Парафінотерапія<br/>&nbsp; '
     description: руки, ноги
-    image:
+    image: waxing-moon.png
