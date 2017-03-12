@@ -7,7 +7,7 @@
         </header>
         <div class="container">
             {% for service in site.data.work.services %}
-                {% if (forloop.length % 3) == 1 %}
+                {% if (forloop.index % 3) == 1 %}
                 <div class="row">
                 {% endif %}
 
@@ -19,7 +19,7 @@
                         </section>
                     </div>
 
-                {% if (forloop.length % 3) == 0 %}
+                {% if (forloop.index % 3) == 0 %}
                 </div>
                 {% endif %>
             {% endfor %}
