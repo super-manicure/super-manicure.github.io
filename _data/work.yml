@@ -18,7 +18,7 @@ services:
 
   -
     title: Покриття гель-лаком
-    description:
+    description: сучасні матеріали та обладнання
     image:
 
   -
@@ -32,6 +32,6 @@ services:
     image:
 
   -
-    title: Парафінотерапія
+    title: 'Парафінотерапія<br/> '
     description: руки, ноги
     image:
