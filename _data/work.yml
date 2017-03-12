@@ -16,22 +16,22 @@ services:
     description: класичний, комбінований, апаратний
     image:
 
--
+  -
     title: Покриття гель-лаком
     description:
     image:
 
--
+  -
     title: Фарбування та корекція форми брів
     description: хна, спа-хна, фарба
     image:
 
--
+  -
     title: Воскова депіляція, шугаринг
     description:
     image:
 
--
+  -
     title: Парафінотерапія
     description: руки, ноги
     image:
