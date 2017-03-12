@@ -28,10 +28,10 @@ services:
 
   -
     title: Воскова депіляція, шугаринг
-    description:
+    description: лагідно і ніжно
     image:
 
   -
-    title: 'Парафінотерапія<br/> '
+    title: 'Парафінотерапія<br/>&nbsp; '
     description: руки, ноги
     image:
