@@ -1,0 +1,32 @@
+<!-- Work -->
+<div class="wrapper style2">
+    <article id="work">
+        <header>
+            <h2>{{site.data.work.title}}</h2>
+            <p>{{site.data.work.description}}</p>
+        </header>
+        <div class="container">
+            {% for service in site.data.work.services %}
+                {% if (forloop.length % 3) == 1 %}
+                <div class="row">
+                {% endif %}
+
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <span class="icon featured fa-comments-o"></span>
+                            <h3>{{service.title}}</h3>
+                            <p>{{service.description}}</p>
+                        </section>
+                    </div>
+
+                {% if (forloop.length % 3) == 0 %}
+                </div>
+                {% endif %>
+            {% endfor %}
+        </div>
+        <footer>
+            <p>{{site.data.work.foot_description}}</p>
+            <a href="#{{site.data.work.next.url}}" class="button big scrolly">{{site.data.work.next.title}}</a>
+        </footer>
+    </article>
+</div>
