@@ -1,8 +1,8 @@
 .image.featured.work {
-
     text-align: center;
     text-align: -webkit-center;
-    img {
-        width: 128px !important;
-    }
+}
+
+.image.featured.work img {
+    width: 128px !important;
 }
