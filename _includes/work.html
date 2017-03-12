@@ -7,9 +7,7 @@
         </header>
         <div class="container">
             {% for service in site.data.work.services %}
-                {% if (forloop.index % 3) == 1 %}
-                <div class="row">
-                {% endif %}
+                {% cycle 'g1': '<div class="row">','','' }
 
                     <div class="4u 12u(mobile)">
                         <section class="box style1">
@@ -19,9 +17,7 @@
                         </section>
                     </div>
 
-                {% if (forloop.index % 3) == 0 %}
-                </div>
-                {% endif %}
+                {% cycle 'g2': '', '', '</div>' %}
             {% endfor %}
         </div>
         <footer>
