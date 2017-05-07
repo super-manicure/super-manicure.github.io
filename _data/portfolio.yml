@@ -1,0 +1,37 @@
+title: 'Приклади моїх робіт'
+description:
+foot_description: Якщо ви забажали скористатись мої супер можливостями
+next:
+  title: Звязатись зі мною
+  url: contacts
+
+images:
+  -
+    title: Манікюр
+    description: класичний і апаратний
+    image: pic1
+
+  -
+    title: Манікюр
+    description: класичний і апаратний
+    image: pic2
+
+  -
+    title: Манікюр
+    description: класичний і апаратний
+    image: pic3
+
+  -
+    title: Манікюр
+    description: класичний і апаратний
+    image: pic4
+
+  -
+    title: Манікюр
+    description: класичний і апаратний
+    image: pic5
+
+  -
+    title: Манікюр
+    description: класичний і апаратний
+    image: pic6

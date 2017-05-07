@@ -1,0 +1,26 @@
+<!-- Portfolio -->
+<div class="wrapper style3">
+    <article id="portfolio">
+        <header>
+            <h2>{{site.data.portfolio.title}}</h2>
+            <p>{{site.data.portfolio.description}}</p>
+        </header>
+        <div class="container">
+            {% for image in site.data.portfolio.images %}
+                {% cycle 'g1': '<div class="row">','','' %}
+                    <div class="4u 12u(mobile)">
+                        <article class="box style2">
+                            <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+                            <h3><a href="#">Magna feugiat</a></h3>
+                            <p>Ornare nulla proin odio consequat.</p>
+                        </article>
+                    </div>
+                {% cycle 'g2': '', '', '</div>' %}
+            {% endfor %}
+        </div>
+        <footer>
+            <p>{{site.data.portfolio.foot_description}}</p>
+            <a href="#{{site.data.portfolio.next.url}}" class="button big scrolly">{{site.data.portfolio.next.title}}</a>
+        </footer>
+    </article>
+</div>
