@@ -59,6 +59,17 @@
 
 			});
 
+		// ImageViewer
+		  $window.load(function() {
+        var viewer = ImageViewer();
+        $('.image.viewer').click(function () {
+          var imgSrc = $('img', this).attr('src'),
+            highResolutionImage = $(this).data('high-res-img');
+
+          viewer.show(imgSrc, highResolutionImage);
+        });
+		  })
+
 	});
 
 })(jQuery);
