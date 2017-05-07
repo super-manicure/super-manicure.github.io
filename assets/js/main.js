@@ -74,11 +74,11 @@
     // Form
 
     $window.load(function () {
-      $('#form-message').submit(function (e) {
+      $('#form-message').on('submit', function (e) {
         $('#send-block').fadeOut(2000);
       });
 
-      $('#google-form').load(function() {
+      $('#google-form').on('load', function() {
         $('#send-message').toggle(true);
 			})
     });
