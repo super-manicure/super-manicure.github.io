@@ -62,10 +62,11 @@
 		// ImageViewer
 		  $window.load(function() {
         var viewer = ImageViewer();
-        $('.image.viewer').click(function () {
+        $('.image.viewer').click(function (e) {
           var imgSrc = $('img', this).attr('src'),
           highResolutionImage = $(this).data('high-res-img');
           viewer.show(imgSrc, highResolutionImage);
+          e.stopPropagation();
           return false;
         });
 		  })
