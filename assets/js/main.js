@@ -71,6 +71,32 @@
         });
 		  })
 
+    // Form
+
+      $window.load(function() {
+        $('#form-message').submit(function(e) {
+          $.ajax({
+            url: this.action,
+            type: 'POST',
+            data: {
+              'entry.1717328734': $('#name', this).val(),
+              'entry.176519675': $('#email', this).val(),
+              'entry.117322243': $('#message', this).val()
+            },
+            beforeSend: function() {
+              $('#name, #email, #message, #send', this).attr('disabled', true);
+            },
+            success: function() {
+              $('#send-message').toggle(true);
+            },
+            completed: function() {
+              $('#send-form').toggle(false);
+            }
+          });
+          e.stopPropagation();
+          return false;
+        });
+      })
 	});
 
 })(jQuery);

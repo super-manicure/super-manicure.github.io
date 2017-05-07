@@ -3,30 +3,35 @@
     <article id="contacts" class="container 75%">
         <header>
             <h2>Зв'язатись зі мною.</h2>
-            <p>Ви можете зателефонувати за номером <strong>096 141-85-90</strong>, або залишити повідомлення тут.</p>
+            <p>Ви можете зателефонувати за номером <strong style="color: yellow">096 141-85-90</strong>, або залишити повідомлення тут.</p>
         </header>
         <div>
             <div class="row">
-                <div class="12u">
-                    <form method="post" action="https://docs.google.com/forms/d/e/1FAIpQLScdLeHw2Z3fKIYiXqG0_aBUwz0C2u6oES60oDBkrAeBWFkX2w/formResponse" remote="true">
+                <div class="12u" id="send-message">
+                    <br/>
+                    <h3>Ваше повідомлення успішно надіслано</h3>
+                    <br/>
+                </div>
+                <div class="12u" id="send-block">
+                    <form id="form-message" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLScdLeHw2Z3fKIYiXqG0_aBUwz0C2u6oES60oDBkrAeBWFkX2w/formResponse" remote="true">
                         <div>
                             <div class="row">
                                 <div class="6u 12u(mobile)">
-                                    <input type="text" name="entry.1717328734" placeholder="Ім'я" />
+                                    <input type="text" id="name" name="entry.1717328734" placeholder="Ім'я" />
                                 </div>
                                 <div class="6u 12u(mobile)">
-                                    <input type="text" name="entry.176519675" placeholder="Email або номер телефона" />
+                                    <input type="text" id="email" name="entry.176519675" placeholder="Email або номер телефона" />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="12u">
-                                    <textarea name="entry.117322243" placeholder="Повідомлення"></textarea>
+                                    <textarea id="message" name="entry.117322243" placeholder="Повідомлення"></textarea>
                                 </div>
                             </div>
                             <div class="row 200%">
                                 <div class="12u">
                                     <ul class="actions">
-                                        <li><input type="submit" value="Відіслати" /></li>
+                                        <li><input id="send" type="submit" value="Відіслати" /></li>
                                     </ul>
                                 </div>
                             </div>
