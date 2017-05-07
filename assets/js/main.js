@@ -76,7 +76,7 @@
       $window.load(function() {
         $('#form-message').submit(function(e) {
           $.ajax({
-            url: this.action,
+            url: 'https://docs.google.com/forms/d/e/1FAIpQLScdLeHw2Z3fKIYiXqG0_aBUwz0C2u6oES60oDBkrAeBWFkX2w/formResponse',
             type: 'POST',
             data: {
               'entry.1717328734': $('#name', this).val(),
