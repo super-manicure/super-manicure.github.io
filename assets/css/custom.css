@@ -7,6 +7,6 @@
     width: 128px !important;
 }
 
-.iv-container {
-    z-index: 19000;
+#iv-container {
+    z-index: 19000 !important;
 }
