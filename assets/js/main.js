@@ -74,13 +74,10 @@
     // Form
 
     $window.load(function () {
-      $('#form-message').on('submit', function (e) {
-        $('#send-block').fadeOut(2000);
+      $('#send').on('click', function (e) {
+      	console.log('send click');
+        $('#send-block').fadeOut(2000, function(){ $('#send-message').toggle(true); });
       });
-
-      $('#google-form').on('load', function() {
-        $('#send-message').toggle(true);
-			})
     });
 
   })
