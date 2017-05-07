@@ -83,8 +83,9 @@
               'entry.176519675': $('#email', this).val(),
               'entry.117322243': $('#message', this).val()
             },
+            crossDomain: true,
             headers: {
-              "Access-Control-Allow-Origin": "https://docs.google.com/forms/d/e/1FAIpQLScdLeHw2Z3fKIYiXqG0_aBUwz0C2u6oES60oDBkrAeBWFkX2w/formResponse"
+              "Access-Control-Allow-Origin": "https://docs.google.com"
             },
             beforeSend: function() {
               $('#name, #email, #message, #send', this).attr('disabled', true);
