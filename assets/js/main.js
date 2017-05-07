@@ -93,7 +93,7 @@
               $('#send-message').toggle(true);
             },
             completed: function() {
-              $('#send-form').toggle(false);
+              $('#send-block').toggle(false);
             }
           });
           e.stopPropagation();
