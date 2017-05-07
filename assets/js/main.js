@@ -74,7 +74,7 @@
     // Form
 
       $window.load(function() {
-        $('#form-message').submit(function(e) {
+        $('#send').click(function(e) {
           $.ajax({
             url: 'https://docs.google.com/forms/d/e/1FAIpQLScdLeHw2Z3fKIYiXqG0_aBUwz0C2u6oES60oDBkrAeBWFkX2w/formResponse',
             type: 'POST',
